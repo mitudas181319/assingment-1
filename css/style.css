@@ -47,17 +47,19 @@ nav{
     font-size: 56px;
     font-weight: bold;
     margin-bottom: 30px;
+    
 }
 .banner-title{
     font-size: 24px;
     font-weight:medium;
     color: grey;
     margin-bottom: 30px;
+    
 }
 .banner{
     display: flex;
     justify-content: space-around;
-    background-color: #C6E4D6;
+    
     
     
 }
@@ -195,10 +197,7 @@ nav{
     padding: 48px 48px;
     background-color: white;
 }
-.part3-box-3{
-    display: flex;
-    
-}
+
 .part3-box-img{
     border-radius: 15px;
 }
@@ -235,4 +234,61 @@ nav{
 }
 .part3-box2-title{
     background-color: white;
+}
+
+/* part4 style  */
+
+.part4{
+    text-align: center;
+    padding:0 100px;
+    
+}
+.part4-title{
+    font-weight: bold;
+    font-size: 30px;
+}
+.part4-description{
+    padding: 20px 10px;
+   
+    color: rgba(14, 14, 14, 0.7);
+
+}
+.part4-box{
+    border: 1px dotted white;
+    background-color: white;
+    padding:30px 50px;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 0;
+    display: inline;
+    border-radius: 10px;
+    
+
+}
+.part4-box-container{
+    display: flex;
+    gap: 30px;
+  text-align: center;
+  margin-left: 100px;
+  
+}
+.part4-box:hover{
+    background-color: lightgray;
+}
+.part4-input{
+    margin-top: 20px ;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    padding:20px 400px;
+    background-color: white;
+    border: 1px dotted white;
+    color: rgba(14, 14, 14, 0.3);
+}
+.footer{
+    margin:50px 0 0 0;
+    padding:60px 0 0 0 ;
+    width: ;
+    height: 100px;
+    background-color: white;
+    text-align: center;
 }
